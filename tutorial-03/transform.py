@@ -8,7 +8,8 @@ class Rotation:
         pass
 
     @dataclass
-    def from_euler(self):
+    def from_euler(self, seq='xyz', degrees='False'):
+        self.p = p
         pass
 
     def from_quat(self):
